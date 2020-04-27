@@ -27,7 +27,7 @@ strat.init = function() {
         values           : []
     });
 
-    this.requiredHistory = 82;
+    this.requiredHistory = 10;
     this.oldIchimokuValue = null;
     this.ichimokuValue = null;
     this.wait_price_over_cloud = false;
